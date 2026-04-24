@@ -180,17 +180,39 @@ function App() {
       {/* Clients Section */}
       <ClientsSection />
 
+      {/* Our Creative System Includes */}
+      <div className="pt-16">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-3">
+          Our Creative System Includes
+        </h2>
+      </div>
+
       {/* Explainer Video Ads Section */}
       <ExplainerVideoAds />
 
       {/* AI Ads Section */}
       <AIAdsSection />
-      
-      {/* Services Section */}
-      {/* <section id="services">
-        <PricingSection />
-      </section> */}
-      
+
+      {/* CTA Section - Above Testimonials */}
+      <section className="px-4 sm:px-6 lg:px-8 pb-20 pt-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="relative rounded-3xl overflow-hidden border border-[#4DC035]/20 bg-gradient-to-br from-[#4DC035]/10 via-black to-black p-10 md:p-14 text-center">
+            <div className="absolute inset-0 pointer-events-none">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-[#4DC035]/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-48 h-48 bg-[#4DC035]/5 rounded-full blur-3xl" />
+            </div>
+            <div className="relative z-10">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+                Ready to Scale With <span className="text-[#4DC035]">Better-Performing Ads?</span>
+              </h2>
+              <a href="https://calendly.com/usman-prestigemediapk/30min" target="_blank" rel="noopener noreferrer" className="inline-block px-10 py-4 bg-gradient-to-r from-[#4DC035] to-[#4DC035] rounded-full text-black font-bold text-base transition-all duration-300 hover:shadow-lg hover:shadow-[#4DC035]/30 hover:scale-105">
+                Book Free Strategy Call
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section id="testimonials">
         <TestimonialsSection />

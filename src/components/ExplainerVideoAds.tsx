@@ -52,12 +52,9 @@ const ExplainerVideoAds: React.FC = () => {
   return (
     <section className="relative bg-black pt-16 pb-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-3">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-10">
           Explainer Video Ads
         </h2>
-        <p className="text-center text-white/60 text-base md:text-lg mb-10 max-w-2xl mx-auto">
-          Discover our premium video ad library showcasing creative storytelling and compelling visuals
-        </p>
 
         {/* Mobile: single video + buttons below */}
         <div className="md:hidden">
